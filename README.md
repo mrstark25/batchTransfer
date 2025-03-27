@@ -41,18 +41,18 @@ CONTRACT_ADDRESS: The address of the deployed BatchTransfer contract.
 
 3. 📥 Install Dependencies
 
-npm install
+```npm install```
 
 4. 💸 Transfer ETH Using batchTransferETH
 Update batchTransfer.js with recipient addresses and amounts.
 
 Run the script:
 
-node batchTransfer.js
+```node batchTransfer.js```
 5. 🎁 Transfer ERC20 Tokens Using batchTransferERC20
 Approve the contract to transfer tokens on your behalf.
 
 Run the script with the token address and recipient data:
 
 
-node batchTransfer.js
+```node batchTransfer.js```
