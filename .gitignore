@@ -1,0 +1,12 @@
+# Ignore node modules
+node_modules/
+package-lock.json
+
+# Ignore environment variables
+.env
+
+# Ignore Hardhat/Foundry artifacts and cache
+artifacts/
+cache/
+coverage/
+typechain/
