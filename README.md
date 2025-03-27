@@ -24,9 +24,12 @@ The contract uses transferFrom() to transfer ERC20 tokens, so the sender must ap
 📚 How to Use:
 1. 📦 Clone the Repository
 
-git clone https://github.com/username/batchTransfer.git
-cd batchTransfer
+git clone ```https://github.com/username/batchTransfer.git```
+
+```cd batchTransfer```
+
 2. ⚙️ Set Up the Environment
+
 Create a .env file in the root directory with the following content:
 
 INFURA_API_KEY=your_infura_project_id
