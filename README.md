@@ -33,11 +33,11 @@ INFURA_API_KEY=your_infura_project_id
 PRIVATE_KEY=your_wallet_private_key
 CONTRACT_ADDRESS=0x2CB3D3fa58f79BaE700d0F73ab87530A4e975c79
 
-INFURA_API_KEY: Your Infura API key to connect to the Ethereum network.
+```INFURA_API_KEY:``` Your Infura API key to connect to the Ethereum network.
 
-PRIVATE_KEY: The private key of the wallet that will perform the batch transfers.
+```PRIVATE_KEY:``` The private key of the wallet that will perform the batch transfers.
 
-CONTRACT_ADDRESS: The address of the deployed BatchTransfer contract.
+```CONTRACT_ADDRESS:``` The address of the deployed BatchTransfer contract.
 
 3. 📥 Install Dependencies
 
@@ -49,6 +49,7 @@ Update batchTransfer.js with recipient addresses and amounts.
 Run the script:
 
 ```node batchTransfer.js```
+
 5. 🎁 Transfer ERC20 Tokens Using batchTransferERC20
 Approve the contract to transfer tokens on your behalf.
 
