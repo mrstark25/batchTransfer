@@ -16,8 +16,9 @@ The Batch Transfer contract allows the contract owner to efficiently transfer ET
 
 Network: Ethereum Sepolia Testnet
 
-Batch Transfer Contract Address: 0x2CB3D3fa58f79BaE700d0F73ab87530A4e975c79
-Simple ERC20 Token Address: 0xABac82dD88bef207bd176dD696a69068c1401C2F
+Batch Transfer Contract Address: ```0x2CB3D3fa58f79BaE700d0F73ab87530A4e975c79```
+
+Simple ERC20 Token Address: ```0xABac82dD88bef207bd176dD696a69068c1401C2F```
 
 Required Approvals for ERC20:
 The contract uses transferFrom() to transfer ERC20 tokens, so the sender must approve the contract to spend tokens.
