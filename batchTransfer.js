@@ -227,22 +227,25 @@ async function batchTransferERC20(recipients, amounts) {
 }
 
 // Example to perform batchtransfer
+// Add the recipients address here as many as you want
 const recipients = [
     "0x224a23e16508A5E603321409bb12dCdDf9E8800C",
     "0x3E189609150f560c32050201E920Ba0B55389574"
   ];
 
+// Specify the maount of ETH you want to send
 const ethAmounts = [
   ethers.parseEther("0.001"),
   ethers.parseEther("0.002"),
 ];
 
+// Specify the amount of ERC20 tokens you want to send
 const erc20Amounts = [
   ethers.parseUnits("10", 18), 
   ethers.parseUnits("20", 18),
 ];
 
-// Run the functions
+// Run the function
 async function main() {
   console.log("Starting batch transfers...");
   await batchTransferETH(recipients, ethAmounts);
